@@ -2,4 +2,73 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Poppins;
+  color: white;
+}
+
+.container{
+  min-height: 100vh;
+  background: linear-gradient(135deg, #232526, #414345);
+  padding: 50px 40px;
+}
+
+.container .header{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.container .header img{
+  width: 45px;
+  height: 45px;
+}
+
+.container .header h1{
+  font-size: 30px;
+  padding: 11px 0;
+}
+
+.container #noteCreateBtn{
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  background: linear-gradient(to bottom, #ff512f, #dd2476);
+  margin: 15px 0;
+  padding: 10px 15px;
+  border-radius: 20px;
+  gap: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.container #noteCreateBtn:hover{
+   background: linear-gradient(to bottom, rgb(159, 18, 44), rgb(208, 23, 32));
+}
+
+.container #noteCreateBtn img{
+  width: 20px;
+}
+
+
+
+.notes-container .input-box{
+  position: relative;
+  color: black;
+  outline: none;
+  font-size: 1.2rem;
+  max-width: 500px;
+  min-height: 200px;
+  background-color: white;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+  margin: 30px 0 0;
+  padding: 35px 20px;
+}
+
+.notes-container img{
+  position: absolute;
+  width: 23px;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
 }
